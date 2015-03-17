@@ -15,7 +15,7 @@ button.addEventListener('click', function() {
 });
 
 function startGame() {
-	interval = setInterval(changeMole, 500);
+	interval = setInterval(changeMole, 750);
 };
 
 function stopGame() {
