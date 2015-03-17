@@ -1,0 +1,13 @@
+tr {
+	visibility: hidden;
+}
+
+tr > .active {
+	visibility: visible;
+}
+
+table {
+	border-style: solid;
+	border-radius: 0px;
+	border-width: 2px;
+}
