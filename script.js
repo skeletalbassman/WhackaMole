@@ -18,10 +18,6 @@ button.addEventListener('click', function() {
 	}
 });
 
-function addTime() {
-	time++;
-}
-
 function startGame() {
 	interval = setInterval(changeMole, 750);
 	var alertHolder = document.getElementById("alert-text");
