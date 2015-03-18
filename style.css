@@ -7,7 +7,7 @@ td {
 	border-width: 1px;
 	height: 20px;
 	width: 20px;
-	padding: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 5px;
 }
 
 tr {
@@ -15,6 +15,7 @@ tr {
 
 tr > .active {
 	visibility: visible;
+	background-color: black;
 }
 
 table {
@@ -23,6 +24,9 @@ table {
 	border-style: solid;
 	border-radius: 0px;
 	border-width: 2px;
+	border-collapse: separate;
+	border-spacing: 30px 30px;
+
 }
 
 #alert-text {
